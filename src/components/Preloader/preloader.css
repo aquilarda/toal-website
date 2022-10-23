@@ -1,0 +1,7 @@
+.preloader {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 15rem !important;
+  margin-bottom: 100vh !important;
+}

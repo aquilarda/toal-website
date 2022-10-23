@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b4b4b4 !important;
+  color: #f6fa07 !important;
+  margin: 0;
+  font-family: "Roboto", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.margin-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.podcast-card {
+  position: relative;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.podcast-card:last-child {
+  margin-bottom: 3rem;
+}
+
+.podcast-card--title {
+  font-size: 140% !important;
+  font-weight: bold !important;
+}
+
+.podcast-card--text {
+  font-size: 110% !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .podcast-card {
+    max-width: 80%;
+  }
+}
