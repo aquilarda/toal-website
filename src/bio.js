@@ -1,7 +1,8 @@
 import React from "react";
 
 function activateReadMore(event) {
-  event.target.parentNode.childNodes[3].classList.remove("d-none");
+  let length = event.target.parentNode.childNodes.length;
+  event.target.parentNode.childNodes[length - 1].classList.remove("d-none");
   event.target.remove();
 }
 
@@ -114,23 +115,29 @@ const datas = [
           sanatları gibi ilgi alanlarım var. Programlamayı gerçekten çok
           sevdiğim için oldukça düşkün olduğum bir ilgi alanımdır. Programlama
           hakkında beceri ölçeğimi genellikle full-stack web geliştirme, komut
-          satırı arayüzleri ve masaüstü uygulamaları üzerinde tanımlarım. Bunun
-          dışında bir Linux kullanıcısı olarak özgür yazılımları destekliyorum,
-          %99 özel mülkiyeti reddediyorum ve programcı olarak özgür yazılım
-          geliştiriyorum. İngilizce'ye gelince, İngilizceye çok uzun zamandır
-          aşinayım ve şu anda ana dili İngilizce olanlara benzer bir düzeyde
-          İngilizce konuşabiliyorum (C1). Satranca gelince, satranç oynamak
-          konusunda çok hevesliyim ve satrançta kendimi sürekli geliştiriyorum.
-          <a
-            className="bio--section-link"
-            href="https://lichess.org/@/DrShahinstein"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Lichess{" "}
-          </a>{" "}
-          hesabımı görebilirsiniz.
+          satırı arayüzleri ve masaüstü uygulamaları üzerinde tanımlarım.{" "}
+          <span className="bio--section-link" onClick={activateReadMore}>
+            Dahasını oku...
+          </span>{" "}
+          <span className="d-none">
+            Bunun dışında bir Linux kullanıcısı olarak özgür yazılımları
+            destekliyorum, %99 tescilli yazılımı reddediyorum ve bir programcı
+            olarak özgür yazılım geliştiriyorum. İngilizce'ye gelince,
+            İngilizceye çok uzun zamandır aşinayım ve şu anda ana dili İngilizce
+            olanlara benzer bir düzeyde İngilizce konuşabiliyorum (C1). Satranca
+            gelince, satranç oynamak konusunda çok hevesliyim ve satrançta
+            kendimi sürekli geliştiriyorum.
+            <a
+              className="bio--section-link"
+              href="https://lichess.org/@/DrShahinstein"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Lichess{" "}
+            </a>{" "}
+            hesabımı görebilirsiniz.
+          </span>
         </span>
       ),
       english: (
@@ -139,22 +146,28 @@ const datas = [
           English, playing chess, and martial arts. Programming is a significant
           interest of mine since I really am into programming. I usually define
           my scale of skills in full-stack web development, command line
-          interfaces, and desktop apps. Apart from that, I support free software
-          as I use Linux, %99 deny proprietary, and develop free software as a
-          programmer. As for English, I've been familiar with English for so
-          long and can currently speak native-like English (C1). As for chess, I
-          am highly enthusiastic about playing chess and I continuously improve
-          myself on chess. You can see my{" "}
-          <a
-            className="bio--section-link"
-            href="https://lichess.org/@/DrShahinstein"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            Lichess{" "}
-          </a>{" "}
-          account.
+          interfaces, and desktop apps.{" "}
+          <span className="bio--section-link" onClick={activateReadMore}>
+            Dahasını oku...
+          </span>{" "}
+          <span className="d-none">
+            Apart from that, I support free software as I use Linux, %99 deny
+            proprietary, and develop free software as a programmer. As for
+            English, I've been familiar with English for so long and can
+            currently speak native-like English (C1). As for chess, I am highly
+            enthusiastic about playing chess and I continuously improve myself
+            on chess. You can see my{" "}
+            <a
+              className="bio--section-link"
+              href="https://lichess.org/@/DrShahinstein"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Lichess{" "}
+            </a>{" "}
+            account.
+          </span>
         </span>
       ),
     },
