@@ -5,7 +5,7 @@ import axios from "axios";
 import { Card, Button } from "react-bootstrap";
 import Preloader from "../Preloader/Preloder";
 
-const API = process.env.REACT_API;
+const API = process.env.REACT_APP_API;
 
 export default function DisplayPodcasts(props) {
   const [data, setData] = useState([]);
