@@ -8,7 +8,7 @@ import Preloader from "../Preloader/Preloder";
 const API = process.env.REACT_APP_API;
 
 export default function DisplayPodcasts(props) {
-  const [data, setData] = useState([]);
+  const [podcasts, setPodcasts] = useState([]);
   const [loading, setLoading] = useState(false);
   let { category } = useParams();
 
@@ -21,11 +21,11 @@ export default function DisplayPodcasts(props) {
   useEffect(() => {
     const fetchData = async () => {
       if (endpoint) {
-        await axios.get(API + endpoint).then((res) => setData(res.data));
+        await axios.get(API + endpoint).then((res) => setPodcasts(res.data));
       } else {
         await axios
           .get(API + `podcasts/?category=${category}`)
-          .then((res) => setData(res.data));
+          .then((res) => setPodcasts(res.data));
       }
       setLoading(true);
     };
@@ -38,15 +38,15 @@ export default function DisplayPodcasts(props) {
     return (
       <>
         <div>
-          {data.map((element, index) => {
+          {podcasts.map((podcasts, index) => {
             return (
               <Card className="podcast-card mt-5" bg="dark" key={index}>
                 <Card.Body>
                   <Card.Title className="podcast-card--title">
-                    {element.title}
+                    {podcasts.title}
                   </Card.Title>
                   <Card.Subtitle className="mb-2">
-                    {element.categories.map((category, index) => {
+                    {podcasts.categories.map((category, index) => {
                       return (
                         <ModifiedBadge
                           tags={category.name}
@@ -57,11 +57,11 @@ export default function DisplayPodcasts(props) {
                     })}
                   </Card.Subtitle>
                   <Card.Text className="podcast-card--text">
-                    {element.description}
+                    {podcasts.description}
                   </Card.Text>
 
                   <Button
-                    href={element.podcast_platform_url}
+                    href={podcasts.podcast_platform_url}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -69,7 +69,7 @@ export default function DisplayPodcasts(props) {
                   </Button>
                 </Card.Body>
                 <Card.Footer>
-                  {element.authors.map((author, index) => {
+                  {podcasts.authors.map((author, index) => {
                     return (
                       <ModifiedBadge
                         tags={"by " + author.name}
