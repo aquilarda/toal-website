@@ -8,6 +8,7 @@ Welcome to the official website of Tuğba Özbek Anadolu Lisesi Podcast Organiza
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Installation](#installation)
+    - [Server-Side](#server-side)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
@@ -28,6 +29,10 @@ To install this website, follow these steps:
 1. Clone this repository: `$ git clone https://github.com/DrShahinstein/toalpodcast.git`
 2. Install the necessary dependencies: `$ yarn`
 3. Start the server: `$ yarn start`
+
+### Server-Side
+
+Source-code of this website's server-side written in Django is [here](https://github.com/reo6/vertical-backend)
 
 ## Usage
 
