@@ -87,7 +87,7 @@ const datas = [
       ),
       english: (
         <span>
-          "Hello, I am Can Cicioglu. As a native of Izmir, I am a true lover of
+          Hello, I am Can Cicioglu. As a native of Izmir, I am a true lover of
           the Aegean and the sea. My journey of learning along with education
           has been ongoing since 1998. Believing that alternatives to
           traditional education are valuable, I have participated in many
