@@ -16,17 +16,17 @@ export default function NavBar() {
         <Navbar.Collapse id="navbar-toggler">
           <Nav>
             <Link className="nav-link" to="/about">
-              About
+              Hakkımızda
             </Link>
           </Nav>
           <Nav>
             <Link className="nav-link" to="/contact">
-              Contact
+              İletişim
             </Link>
           </Nav>
           <Nav>
             <Link className="nav-link" to="/bio">
-              Bio
+              Biyografi
             </Link>
           </Nav>
         </Navbar.Collapse>
