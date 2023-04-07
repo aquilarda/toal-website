@@ -7,10 +7,10 @@ import logo from "../../assets/logo.jpg";
 const API_URL = "https://verticalbackend.pythonanywhere.com/api/";
 
 export default function App() {
-  const [data, setData] = useState([]);
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get(API_URL + "categories/").then((res) => setData(res.data));
+    axios.get(API_URL + "categories/").then((res) => setCategories(res.data));
   }, []);
 
   return (
@@ -20,21 +20,21 @@ export default function App() {
           <Image src={logo} alt="jumbotron-background-image" />
         </div>
         <div className="mt-5">
-          <h1 className="flex-center">Podcast Categories</h1>
+          <h1 className="flex-center">Podcast Kategorileri</h1>
           <hr />
         </div>
       </div>
       <div>
         <Card className="podcast-card" bg="dark">
           <Card.Body>
-            <Card.Title className="podcast-card--title">All</Card.Title>
+            <Card.Title className="podcast-card--title">Tümü</Card.Title>
             <Card.Text className="podcast-card--text">
-              See the all podcasts we have.
+              Tüm podcastlerimizi dinleyin.
             </Card.Text>
-            <Button href="/podcasts">Go</Button>
+            <Button href="/podcasts">Git</Button>
           </Card.Body>
         </Card>
-        {data.map((category, index) => {
+        {categories.map((category, index) => {
           return (
             <Card className="podcast-card" bg="dark" key={index}>
               <Card.Body>
@@ -42,10 +42,10 @@ export default function App() {
                   {category.name}
                 </Card.Title>
                 <Card.Text className="podcast-card--text">
-                  See the podcasts about {category.name}.
+                  {category.name} ile ilgili podcastleri dinleyin.
                 </Card.Text>
                 <Button href={`/podcasts/${category.name.toLowerCase()}`}>
-                  Go
+                  Git
                 </Button>
               </Card.Body>
             </Card>
