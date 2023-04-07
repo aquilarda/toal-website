@@ -38,26 +38,26 @@ const datas = [
       ),
       english: (
         <span>
-          Hello everyone, I'm Erdem ASIBOSTAN. I was born in Izmir and I
-          completed all my education in Izmir. Since 2000, my adventure of
-          learning with my students continues. I continue to help and work in
-          every possible way to feel the magical world of literature and to make
-          my students feel it as well. I have an interest in every field of
-          literature.{" "}
+          Hello everyone, I am Erdem ASIBOSTAN. I was born in Izmir and
+          completed all of my education there. Since 2000, my journey of
+          learning with my students has been ongoing. I continue to make every
+          effort to experience the enchanting world of literature and to convey
+          this feeling to my students. I have an interest in every aspect of
+          literature where a pen is involved.{" "}
           <span className="bio--section-link" onClick={activateReadMore}>
             Read more...
           </span>
           <span className="d-none">
-            In addition, water and sea are indispensable elements of my life.
-            Where there is no sea, I feel like a fish out of water. So much so
-            that I am also interested in the aquarium hobby so as not to leave
-            the water. Now we need to add technology to these. I am interested
-            in audio, image and video processing. I have various works on this
-            subject. I also continue my studies to learn the Python programming
-            language. Learning management systems and content management systems
-            are also other areas that I strive to learn. Learning will continue
-            throughout our lives and I will continue to share what I have
-            learned with our students. Greetings to all my learning friends.
+            Additionally, water and the sea are indispensable elements of my
+            life. Without the sea, I feel like a fish out of water. In fact, I
+            am also interested in aquarium hobby to stay close to the water.
+            Technology is another area that I am interested in. I have been
+            working on sound, image, and video processing topics. Furthermore, I
+            am learning the Python programming language. Learning management
+            systems and content management systems are other areas where I am
+            putting forth effort to learn. Learning will continue throughout our
+            lives, and I will continue to share what I have learned with my
+            students. Greetings to all of my learning companions.
           </span>
         </span>
       ),
@@ -87,12 +87,12 @@ const datas = [
       ),
       english: (
         <span>
-          Hello, I am Can Cicioğlu, was born in İzmir, and I am a true Aegean
-          and sea lover. My journey of learning along with education has been
-          going on since 1998. I took part in many projects where we had
-          learning experiences with children and young people, saying that the
-          alternative to education is acceptable. During this journey, my slogan
-          has always been{" "}
+          "Hello, I am Can Cicioglu. As a native of Izmir, I am a true lover of
+          the Aegean and the sea. My journey of learning along with education
+          has been ongoing since 1998. Believing that alternatives to
+          traditional education are valuable, I have participated in many
+          projects where we experience learning together with children and young
+          people. Throughout this journey, my slogan has always been{" "}
           <a
             className="bio--section-link"
             href="https://twitter.com/hashtag/hayalkurveitirazet?src=hashtag_click"
@@ -142,21 +142,22 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Taylan. I have kinds of interests like programming, speaking
-          English, playing chess, and martial arts. Programming is a significant
-          interest of mine since I really am into programming. I usually define
-          my scale of skills in full-stack web development, command line
-          interfaces, and desktop apps.{" "}
+          My name is Taylan. I have interests in programming, speaking English,
+          playing chess, and martial arts. Programming is a passion of mine, and
+          I am deeply devoted to it. I usually measure my skill level in
+          programming based on full-stack web development, command-line
+          interfaces, and desktop applications.{" "}
           <span className="bio--section-link" onClick={activateReadMore}>
             Dahasını oku...
           </span>{" "}
           <span className="d-none">
-            Apart from that, I support free software as I use Linux, %99 deny
-            proprietary, and develop free software as a programmer. As for
-            English, I've been familiar with English for so long and can
-            currently speak native-like English (C1). As for chess, I am highly
-            enthusiastic about playing chess and I continuously improve myself
-            on chess. You can see my{" "}
+            Additionally, as a Linux user, I support free software, reject
+            proprietary software about 99% of the time, and develop free
+            software as a programmer. Regarding English, I have been familiar
+            with it for a very long time, and I can currently speak English at a
+            level similar to that of a native speaker (C1). As for chess, I am
+            very enthusiastic about playing chess and continually improving my
+            skills. You can see my{" "}
             <a
               className="bio--section-link"
               href="https://lichess.org/@/DrShahinstein"
@@ -187,11 +188,11 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Seçkin and I'm from İzmir. I went to primary and secondary school
-          in Egekent 2. I'm currently studying at Tuğba Özbek Anatolian High
-          School in class 9/A. I participate in the extracurricular activity
-          podcast of our School. Here we try to know ourselves and our
-          environment and exchange ideas.
+          My name is Seçkin. I am from Izmir. I attended primary and middle
+          school at Egekent 2. Currently, I am in the 9th grade at Tuğba Özbek
+          Anatolian High School. I participate in the school's extracurricular
+          activity called Podcast. Here, we try to get to know ourselves and our
+          surroundings better and exchange ideas.
         </span>
       ),
     },
@@ -209,10 +210,11 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Çiğdem Buse Taş and I'm a student who currently studies at Tuğba
-          Özbek Anatolian High School. I'm in tenth grade. I'm interested in
-          reading books and playing the guitar. I participate in the TÖAL
-          Podcast as an extracurricular activity in my school.
+          My name is Çiğdem Buse Taş. I am a student at Tuğba Özbek Anatolian
+          High School. I am in the 10th grade. I enjoy reading books and playing
+          the guitar. As an extracurricular activity, I participate in a Podcast
+          where we try to get to know ourselves and our surroundings better, and
+          exchange ideas.
         </span>
       ),
     },
@@ -232,12 +234,12 @@ const datas = [
       ),
       english: (
         <span>
-          Hi, I am Ayşe Gül, a 9th grade student at Tuğba Özbek Anatolian High
-          School. Radio, podcast etc. in our school I am involved in
-          extracurricular activities. While aiming for alternative education in
-          podcast applications, we are trying to make lunch breaks more
-          enjoyable by taking the ideas of our school students in our current
-          radio activities.
+          "Hello, I'm Ayşe Gül, a 9th grade student at Tuğba Özbek Anatolian
+          High School. I participate in extracurricular activities such as radio
+          and podcasting at our school. While aiming for alternative education
+          in podcast applications, in our current radio activities, we try to
+          make our lunch breaks more enjoyable by taking ideas from our school
+          students."
         </span>
       ),
     },
@@ -257,11 +259,11 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Aslı. I'm a 9th grade student in Tuğba Özbek Anatolian High
-          School. I'm fond of learning the codes of colors. The cinema and music
-          industry attract attention on me. I'm pretty into sleeping. I join the
-          extracurricular activity of our school, Podcast. We learn something
-          new and create projects.
+          "My name is Aslı. I am a 9th grade student at Tuğba Özbek Anatolian
+          High School. I love learning color codes. I am interested in the
+          cinema and music industry. I am very fond of sleeping. I participate
+          in the school's extracurricular activity, Podcast, where we learn new
+          things and work on projects.
         </span>
       ),
     },
@@ -280,10 +282,10 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Arda Ceylan. I'm a student at Tuğba Özbek Anatolian School. I'm in
-          9th grade. I'm addicted to movies. I spend my time with books,video
-          games, D&D and comic books except the time I watch movies. I'm also a
-          member of Vertical, TÖAL Podcast.
+          My name is Arda Ceylan. I am a student at Tuğba Özbek Anatolian High
+          School and I am in 9th grade. I am addicted to movies. Apart from
+          watching movies, I spend my time with books, video games, D&D and
+          comics. I am also a member of Vertical and TÖAL Podcast.
         </span>
       ),
     },
@@ -302,10 +304,10 @@ const datas = [
       ),
       english: (
         <span>
-          I'm M.Osman Gültepe. I am from Sivas. I study at Tuğba Özbek Anatolian
-          High School in the class 9/B. I'm in the TÖAL Podcast group. I like
-          playing activateReadMoretball and playing online games. I participate
-          in the TÖAL Podcast as an extracurricular activity in my school.
+          I am M.Osman Gültepe. I'm from Sivas. I'm a 9th-grade student at Tuğba
+          Özbek Anatolian High School. I am a member of TÖAL Podcast group. I
+          enjoy playing football and online games. I participate in TÖAL Podcast
+          as an extracurricular activity at my school.
         </span>
       ),
     },
@@ -324,10 +326,10 @@ const datas = [
       ),
       english: (
         <span>
-          My name is Tuğsem Özçiçekçi. I'm 13 years old. I study 9th grade at
-          Tuğba Özbek Anatolian High School. I'm the cameraman of our podcast
-          group. I take clips, edit them and share edited videos on social media
-          platforms. My hobbies are singing and listening to music.
+          "My name is Tuğsem Özçiçekçi. I'm 13 years old and I'm a 9th grade
+          student at Tuğba Özbek Anadolu High School. I'm the cameraperson of
+          our podcast group. I shoot and edit videos and share them on social
+          media platforms. My hobbies are singing and listening to music.
         </span>
       ),
     },
@@ -346,11 +348,11 @@ const datas = [
       ),
       english: (
         <span>
-          Hello, I am Zeynep Bakıcı. I study at Tuğba Özbek Anatolian High
-          School in İzmir. I am a member of the podcast and radio group in our
-          school, where we all express our thoughts, and I work in the sound
-          processing and radio section of this group. I am happy to be in this
-          group
+          Hello, I'm Zeynep Bakıcı. I'm studying at Tuğba Özbek Anatolian High
+          School in Izmir. I'm a member of the podcast and radio group where
+          everyone's thoughts are expressed. I'm involved in voice processing
+          and radio activities in this group. I'm happy to be part of this
+          group."
         </span>
       ),
     },
@@ -369,8 +371,8 @@ const datas = [
       english: (
         <span>
           My name is Ömer Ali Kılıç, I am a student at Tuğba Özbek Anatolian
-          High School. I work in the audio processing department of the podcast
-          group I am in.
+          High School. I work in the sound processing section of the podcast
+          group I am a part of.
         </span>
       ),
     },
@@ -390,10 +392,10 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Yağmur Sefil. I am a 10th grade student. I am interested in
-          philosophy, psychology and popular science, especially literature. I
-          do poetry and passage voiceovers at our school's Podcast events, and I
-          also share my own ideas and movie reviews in this way.{" "}
+          "My name is Yağmur Sefil. I'm a 10th-grade student. I'm interested in
+          literature, philosophy, psychology, and popular science. In our
+          school's Podcast activities, I recite poetry and passages, and also
+          share my own ideas and film reviews.
         </span>
       ),
     },
@@ -414,12 +416,13 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Asya. I live in İzmir. I'm an 11th grade Tuğba Özbek Anatolian
-          High School student. I help this extracurricular project by recording.
-          We get to learn and create ideas through this alternative-education
-          based project. I do podcasts based on philosophy and creating new
-          ideas. I think, in case this project got a good opportinity it'll
-          reach the high points.
+          My name is Asya, and I live in Izmir. I am an 11th grade student at
+          Tuğba Özbek Anatolian High School. I contribute to this
+          extracurricular project by recording sessions. This project offers an
+          alternative education approach that focuses more on providing ideas
+          and teaching. I mainly record sessions related to sharing ideas or
+          philosophy-based topics. I believe that if we are given the
+          opportunity, our project can go to great heights.
         </span>
       ),
     },
@@ -439,11 +442,11 @@ const datas = [
       ),
       english: (
         <span>
-          Hello. My name is Yaren. I am 17 years old and an 11th grade student.
-          I am generally energetic and cheerful. I am in the Vertical team of
-          Tuğba Özbek Anatolian High School. I like reading books, taking
-          pictures and watching movies. I took theater lessons for two years at
-          Sahne Tozu Theater and acted in a theater show.
+          Hello. My name is Yaren. I'm 17 years old and a student in 11th grade.
+          I'm generally energetic and cheerful. I'm a member of the Vertical
+          team at Tuğba Özbek Anatolian High School. I like reading books,
+          taking photos, and watching movies. I took two years of theater
+          classes at Sahne Tozu Theater and acted in a theater play.
         </span>
       ),
     },
@@ -464,11 +467,12 @@ const datas = [
       ),
       english: (
         <span>
-          Hello, I'm Kağan. In this group that I joined four years ago through
-          my teachers and friends, we did great jobs. We created an art, yes,
-          such as audio processing and painting... I spent my life studying and
-          having fun. But in fact, we're producers and this should go on with us
-          and after us as well. We and I work for this.
+          Hello, I am Kağan. Four years ago, I joined this group through my
+          teachers and friends, and we did great work. We created an art, and
+          yes, sound editing is like painting, it's an art... I have spent my
+          life studying and having fun. But in fact, we are producers, and this
+          should continue with us and after us, and I am working towards that
+          goal.
         </span>
       ),
     },
@@ -486,9 +490,9 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Berke. I'm the participant who has been here longest in our
-          school's podcast group. We make the audio recordings servable by
-          editing with my other friend in the audio processing group.
+          My name is Berke. I am the longest-standing member of our school's
+          podcast group. Together with my colleague in the audio editing team,
+          we edit the recorded audio to make it presentable for the audience.
         </span>
       ),
     },
@@ -511,14 +515,14 @@ const datas = [
       ),
       english: (
         <span>
-          Hello everyone, I'm Esmanur Gültekin. I'm a 10th grade student in
-          Tuğba Özbek Anatolian High School. I've many kinds of activities I
-          like. Some of them are listening to music, yoga, taking a walk and
-          reading books. I'm really into reading books. On the other hand, as an
-          extracurricular activity, I'm a text writer around the participants of
-          the podcast group and I want to improve myself about this in many
-          ways, too. Now, I'm preparing a novel that I created on my own and I
-          think the podcast group will also benefit about this:)
+          Hello everyone, my name is Esmanur Gültekin and I am a 10th grade
+          student at Tuğba Özbek Anatolian High School. I enjoy a variety of
+          activities such as listening to music, doing yoga or going for walks,
+          and reading books. Apart from that, as an extracurricular activity, I
+          am a scriptwriter for the podcast group and I would like to develop
+          myself in this field. Currently, I am writing a novel that I created
+          the plot for and I think it would be beneficial for the podcast group
+          as well:)
         </span>
       ),
     },
@@ -536,10 +540,10 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Zeynep Yaşlıca. I'm 15 and I'm a 10th grade student at Tuğba Özbek
-          Anatolian High School. I like listening to music, reading books and
-          sleeping. Except for that one, I join the podcast extracurricular
-          activity.
+          My name is Zeynep Yaşlıca. I'm 15 years old and I'm a 10th grade
+          student at Tuğba Özbek Anatolian High School. I enjoy listening to
+          music, reading books, and sleeping. Besides that, I participate in the
+          podcast group as an extracurricular activity.
         </span>
       ),
     },
@@ -558,10 +562,10 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Helin. I live in İzmir. I study at Tuğba Özbek Anatolian High
-          School. I'm 11th grade. I contribute to the podcast extracurricular
-          activity. I think our group that we developed with creative ideas is
-          funny and educative.
+          My name is Helin. I live in Izmir and I am an 11th grade student at
+          Tuğba Özbek Anatolian High School. I contribute to a podcast, which is
+          an extracurricular activity. I think our group, which we advance with
+          creative ideas, is both entertaining and educational.
         </span>
       ),
     },
@@ -581,10 +585,11 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Yusuf Kutsi Kırmızı. I'm a 9th grade student of Tuğba Özbek
-          Anatolian High School, I participate in the group Vertical TÖAL
-          Podcast and Radio. I love watching movies & series in my free time.
-          Nowadays, we created a little D&D group with my friends.
+          My name is Yusuf Kutsi Kirmizi. I am a 9th-grade student at Tuğba
+          Özbek Anatolian High School and a member of the Vertical TÖAL podcast
+          and radio group. In my free time, I enjoy watching movies and series.
+          I am not someone who plays games, but I like to collect things.
+          Recently, I formed a small D&D group with my friends.
         </span>
       ),
     },
@@ -617,25 +622,24 @@ const datas = [
       ),
       english: (
         <span>
-          I'm Ceren Kocakahya. I was born in İzmir on the tenth of January,
-          2005. However I lived in Bursa and I completed my primary education
-          there. I started playing violin through my music teacher in 6th grade.
-          Moreover, I was pretty successful as academic and I graduated as the
-          second one from my class. I came to İzmir for secondary education
-          after primary education.{" "}
+          My name is Ceren Kocakahya. I was born on January 10, 2005 in Izmir,
+          but I grew up in Bursa and completed my primary education there. In
+          6th grade, I started playing the violin at the direction of my music
+          teacher. Along with this, I was academically successful and graduated
+          2nd in my class. After primary school, I came to Izmir for high
+          school.{" "}
           <span className="bio--section-link" onClick={activateReadMore}>
             Read more...
           </span>
           <span className="d-none">
-            Because I am an extrovert and assertive person, I took the stage at
-            the first event in my first year. While continuing the activities at
-            full throttle, I started the violin course again. However, I was
-            away from my course and school due to the pandemic. I continued my
-            works on my own during this process. I started taking singing
-            lessons, and I practiced with my guitar at home. I got back to the
-            events after the opening back of schools. I started taking piano
-            courses. Now I participate in activities related to my other
-            interests.
+            As an outgoing and self-expressive person, I performed on stage at
+            the first event in my school. While continuing with events, I also
+            resumed my violin lessons. However, due to the pandemic, I was away
+            from my lessons and my school. During this time, I continued
+            practicing on my own, started taking vocal lessons, and practiced
+            with the guitar at home. When schools reopened, I started attending
+            events again and also began taking piano lessons. Now I participate
+            in activities related to my other interests.
           </span>
         </span>
       ),
@@ -656,11 +660,10 @@ const datas = [
       ),
       english: (
         <span>
-          Hello everyone. I'm Naz Akan. I study at Tuğba Özbek Anatolian High
-          School. Singing a song is kind of like breathing for me. I love it
-          very much. I love discovering something new. Also, I participate in
-          the activity podcast in our school. Here we both exchange ideas and
-          learn to work with a team spirit.
+          Hello everyone. I am Naz Akan. I am a student at Tuğba Özbek Anatolian
+          High School. Singing is like breathing for me, I love it. I enjoy
+          discovering new things. Also, I participate in the Podcast activity in
+          our school. Here, we exchange ideas and learn to work as a team.
         </span>
       ),
     },
