@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6>About</h6>
+            <h6>Hakkımızda</h6>
             <p className="text-justify">
               Biz Tuğba Özbek Anadolu Lisesi podcast grubunun Vertical
               takımıyız. Okuldan sonra 2 gün toplanarak kayıtlarımızı almamızın
@@ -17,22 +17,22 @@ export default function Footer() {
               okulumuz adına çekimler yapıp okulun sosyal medya hesaplarında
               paylaşıyoruz. En önemlisi, tüm bunları eğlenceli yollarla
               yapıyoruz. Bize her konuda yardım edip bizimle birer arkadaş gibi
-              davranan 2 öğretmenimiz sayesinde, görevlerimizi sıkılmadan yerine
-              getiriyoruz.
+              davranan iki öğretmenimiz sayesinde, görevlerimizi sıkılmadan
+              yerine getiriyoruz.
             </p>
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Company</h6>
+            <h6>Organizasyon</h6>
             <ul className="footer-links">
               <li>
                 <span>
-                  <Link to="/about">About Us</Link>
+                  <Link to="/about">Hakkımızda</Link>
                 </span>
               </li>
               <li>
                 <span>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">İletişim</Link>
                 </span>
               </li>
               <li>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div className="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
+            <h6>Hızlı Linkler</h6>
             <ul className="footer-links">
               <li>
                 <span>
@@ -53,7 +53,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Contribute
+                    Katkıda Bulunun
                   </a>
                 </span>
               </li>
@@ -64,7 +64,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Developer
+                    Geliştirici
                   </a>
                 </span>
               </li>
