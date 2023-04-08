@@ -7,13 +7,6 @@ import Preloader from "../Preloader/Preloder";
 
 const API = process.env.REACT_APP_API;
 
-const capitalizeCategory = (category) => {
-  const firstLetter = category.charAt(0);
-  const theRest = category.slice(1);
-  if (firstLetter === "i") return firstLetter.replace("i", "İ");
-  return firstLetter.toLocaleUpperCase("tr-TR") + theRest;
-};
-
 export default function DisplayPodcasts(props) {
   const [podcasts, setPodcasts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -22,7 +15,7 @@ export default function DisplayPodcasts(props) {
   if (props.endpoint) {
     var endpoint = props.endpoint;
   } else {
-    category = capitalizeCategory(category);
+    category = category.charAt(0).toUpperCase() + category.slice(1); // Capitalize the category
   }
 
   useEffect(() => {
