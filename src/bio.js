@@ -234,12 +234,12 @@ const datas = [
       ),
       english: (
         <span>
-          "Hello, I'm Ayşe Gül, a 9th grade student at Tuğba Özbek Anatolian
-          High School. I participate in extracurricular activities such as radio
-          and podcasting at our school. While aiming for alternative education
-          in podcast applications, in our current radio activities, we try to
-          make our lunch breaks more enjoyable by taking ideas from our school
-          students."
+          Hello, I'm Ayşe Gül, a 9th grade student at Tuğba Özbek Anatolian High
+          School. I participate in extracurricular activities such as radio and
+          podcasting at our school. While aiming for alternative education in
+          podcast applications, in our current radio activities, we try to make
+          our lunch breaks more enjoyable by taking ideas from our school
+          students.
         </span>
       ),
     },
@@ -259,7 +259,7 @@ const datas = [
       ),
       english: (
         <span>
-          "My name is Aslı. I am a 9th grade student at Tuğba Özbek Anatolian
+          My name is Aslı. I am a 9th grade student at Tuğba Özbek Anatolian
           High School. I love learning color codes. I am interested in the
           cinema and music industry. I am very fond of sleeping. I participate
           in the school's extracurricular activity, Podcast, where we learn new
@@ -326,7 +326,7 @@ const datas = [
       ),
       english: (
         <span>
-          "My name is Tuğsem Özçiçekçi. I'm 13 years old and I'm a 9th grade
+          My name is Tuğsem Özçiçekçi. I'm 13 years old and I'm a 9th grade
           student at Tuğba Özbek Anadolu High School. I'm the cameraperson of
           our podcast group. I shoot and edit videos and share them on social
           media platforms. My hobbies are singing and listening to music.
@@ -352,7 +352,7 @@ const datas = [
           School in Izmir. I'm a member of the podcast and radio group where
           everyone's thoughts are expressed. I'm involved in voice processing
           and radio activities in this group. I'm happy to be part of this
-          group."
+          group.
         </span>
       ),
     },
@@ -392,7 +392,7 @@ const datas = [
       ),
       english: (
         <span>
-          "My name is Yağmur Sefil. I'm a 10th-grade student. I'm interested in
+          My name is Yağmur Sefil. I'm a 10th-grade student. I'm interested in
           literature, philosophy, psychology, and popular science. In our
           school's Podcast activities, I recite poetry and passages, and also
           share my own ideas and film reviews.
