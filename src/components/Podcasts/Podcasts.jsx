@@ -15,7 +15,9 @@ export default function DisplayPodcasts(props) {
   if (props.endpoint) {
     var endpoint = props.endpoint;
   } else {
-    category = category.charAt(0).toUpperCase() + category.slice(1); // Capitalize the category
+    category =
+      category.charAt(0).replace("i", "İ").toLocaleUpperCase("tr-TR") +
+      category.slice(1); // Capitalize the category
   }
 
   useEffect(() => {
