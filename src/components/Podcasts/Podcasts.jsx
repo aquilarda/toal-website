@@ -38,15 +38,15 @@ export default function DisplayPodcasts(props) {
     return (
       <>
         <div>
-          {podcasts.map((podcasts, index) => {
+          {podcasts.map((podcast, index) => {
             return (
               <Card className="podcast-card mt-5" bg="dark" key={index}>
                 <Card.Body>
                   <Card.Title className="podcast-card--title">
-                    {podcasts.title}
+                    {podcast.title}
                   </Card.Title>
                   <Card.Subtitle className="mb-2">
-                    {podcasts.categories.map((category, index) => {
+                    {podcast.categories.map((category, index) => {
                       return (
                         <ModifiedBadge
                           tags={category.name}
@@ -57,11 +57,11 @@ export default function DisplayPodcasts(props) {
                     })}
                   </Card.Subtitle>
                   <Card.Text className="podcast-card--text">
-                    {podcasts.description}
+                    {podcast.description}
                   </Card.Text>
 
                   <Button
-                    href={podcasts.podcast_platform_url}
+                    href={podcast.podcast_platform_url}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -69,7 +69,7 @@ export default function DisplayPodcasts(props) {
                   </Button>
                 </Card.Body>
                 <Card.Footer>
-                  {podcasts.authors.map((author, index) => {
+                  {podcast.authors.map((author, index) => {
                     return (
                       <ModifiedBadge
                         tags={"by " + author.name}
