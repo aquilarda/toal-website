@@ -49,7 +49,7 @@ export default function Footer() {
               <li>
                 <span>
                   <a
-                    href="https://github.com/1TaylanOzturk/toal-website"
+                    href="https://github.com/DrShahinstein/toal-website"
                     target="_blank"
                     rel="noreferrer"
                   >
