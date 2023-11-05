@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
@@ -7,10 +7,10 @@ export default function NavBar() {
   return (
     <Navbar className="navbar" expand="sm">
       <Container>
-        <Navbar.Brand translate="no" href="/" className="navbar-brand">
+      <Form inline> <Navbar.Brand translate="no" href="/" className="navbar-brand">
           Vertical
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-toggler">
+        </Navbar.Brand></Form>
+        <Form inline><Navbar.Toggle aria-controls="navbar-toggler">
           <i className="fa fa-bars custom-navbar-toggler-icon"></i>
         </Navbar.Toggle>
         <Navbar.Collapse id="navbar-toggler">
@@ -29,7 +29,7 @@ export default function NavBar() {
               Biyografi
             </Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse></Form>
       </Container>
     </Navbar>
   );

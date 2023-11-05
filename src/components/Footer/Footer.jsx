@@ -37,7 +37,7 @@ export default function Footer() {
               </li>
               <li>
                 <span>
-                  <Link to="/bio">Bio</Link>
+                  <Link to="/bio">Biyografi</Link>
                 </span>
               </li>
             </ul>
